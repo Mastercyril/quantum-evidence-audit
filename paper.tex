@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}\usepackage{amsmath}\usepackage{hyperref}\usepackage[T1]{fontenc}
+\title{Recovering and Auditing a Year of IBM Quantum Experiment Records\\[4pt]\large Thirty jobs, what verifies, and what does not}
+\author{Joseph Cyril Dougherty IV\\13th Chamber LLC}
+\date{November 16, 2026}
+\begin{document}\maketitle
+\begin{abstract}We audit every IBM Quantum experiment record recoverable from a year of personal cloud storage: thirty job entries spanning December 2025 to July 2026 across six backends, with register widths from two to forty bits and shot counts from 1,024 to 4,096. Eight job entries survive as original Qiskit Runtime exports; eighteen exist only as transcribed counts in session reports; four could not be retrieved at all. The audit separates what the files establish from what the transcripts assert. Transcribed highlights, including an 86.9 percent Bell-state fidelity and an 80 percent GHZ-4 visibility, remain unverified because the underlying exports were not recovered. The frequently cited CHSH value S = 2.78 cannot be reconstructed: the recovered exports contain computational-basis populations only, with no rotated-basis correlation data and no recovered circuit definitions. The audit also documents four internal inconsistencies in the transcribed record, including shot totals that sum to 1,025 rather than 1,024 and a stated entropy that is incompatible with the stated peak. We argue the package is useful as a worked example of record decay, and we publish the inventory, the discrepancy log and a retention checklist so that future experiments are verifiable by default rather than reconstructable only in principle.\end{abstract}
+\section*{1. Scope and method}
+The material under audit is a personal archive of IBM Quantum jobs run by the author between January 2025 and October 2026. Records were recovered from Google Drive, OneDrive, exported session transcripts and public web pages. Recovery matched file names, job identifiers, Qiskit Runtime serialisation metadata and count histograms.
+
+Three rules governed the audit. First, a claim is treated as primary evidence only when an original Qiskit Runtime export was recovered and its counts decoded. Second, a claim recorded only in a session transcript is treated as reported, not established. Third, a claim that cannot be traced to any file is dropped entirely, whatever its prominence in earlier writing.
+
+The inventory in Section 3 is the complete set of job entries located. It is a lower bound on what was run and an upper bound on what can be checked today.
+
+\section*{2. What the archive contains}
+Thirty job entries were located. Eighteen ran on ibm\_torino, two on ibm\_kingston, and one each on ibm\_marrakesh, ibm\_fez, ibm\_sherbrooke, plus a 133-qubit Torino run and a 156-qubit Heron r2 Fez run recorded under separate labels. Five entries lost their backend metadata during the transfer failures described below.
+
+Twenty-six entries are marked Completed, one Failed, and the remainder carry no usable status. Shot counts cluster at 1,024 (eleven entries) and 4,096 (eleven entries), with two at 2,048 and the rest unknown. Register widths range from two bits to forty bits; the forty-bit registers belong to randomised circuits whose observed distributions are near uniform, with maximum counts of one or two per outcome out of 4,096 shots, which is what uniformly random bitstrings look like at that depth.
+
+Job creation times, where recoverable, run from 15 December 2025 to 6 July 2026. Earlier work from March 2025 survives only as a refetch log recording RuntimeJobNotFound on both instances, which is itself a useful datum: job records on hosted quantum services expire.
+
+\section*{3. Primary evidence: the eight recoverable exports}
+Eight entries were recovered as original exports with decodable counts. Four carry forty-bit registers on ibm\_torino and ibm\_marrakesh from 16 February 2026, with maximum outcome counts of two. One ibm\_kingston four-bit job from 27 March 2026 shows a peak of 151 counts at outcome 0011, that is 14.7 percent over sixteen states, with the remaining fifteen states between 88 and 107 counts. One Kingston job with split registers records maximum counts of 88, 57 and 281 across a five-bit, five-bit and two-bit register. One Torino job survives as a digitised histogram with a dominant outcome near 445 counts, about 43.5 percent. One Fez job failed at submission and produced metadata only.
+
+Two decoding cautions apply throughout. Byte order is ambiguous in the transcribed summaries: the same Kingston peak is called 0011 under most-significant-bit-first decoding and 1100 under the opposite convention. And a failed job is not an experiment, so the Fez entry carries no result.
+
+\section*{4. Reported but unverified results}
+Eighteen entries exist only as transcribed counts. Among the most cited: a Bell-state run on ibm\_torino reporting 480 counts at 00, 410 at 11, 60 at 01 and 75 at 10, described as 86.9 percent fidelity; a GHZ-4 run reporting roughly 450 counts each at 0000 and 1111, described as 80 percent visibility; a Quantum Volume 8-qubit run across 256 states; a five-qubit Navier-Stokes table with the all-ones outcome at 0.81 percent; and a nine-qubit run with 859 counts at the all-zero outcome, or 20.97 percent.
+
+These are internally plausible for the stated hardware and shot counts, and several are consistent with known depolarising behaviour. They are nonetheless reported values: without the original exports the audit cannot confirm them, and it does not treat them as established.
+
+\section*{5. The CHSH claim does not reconstruct}
+Earlier writing cited a CHSH parameter of S = 2.78 with an uncertainty near 0.04, attributed to two specific jobs. The recovered exports cannot support that number. A CHSH parameter requires coincidence counts in several rotated measurement bases with known classical bit mappings; what was recovered are computational-basis populations from circuits whose definitions were not retained. No set of recovered files determines S.
+
+The record is also inconsistent about it. Documented values across the year include 2.78, 2.82, 2.875, 2.41, 1.87 and 0.875. One of those, 1.87, sits below the classical bound of 2.0 and was reported as such by the author at the time. A quantity that ranges across those values in the same archive is a quantity that was never pinned to a single measurement protocol.
+
+For the same reason, the widely repeated claim of a 348-fold error suppression is not supported by the recovered exports. It may well have been observed; the archive does not let anyone check.
+
+\section*{6. Four discrepancies in the transcribed record}
+First, the Bell counts sum to 1,025 against a stated 1,024 shots. Second, a three-qubit run reports 700 counts from 1,024 at a single outcome, 68 percent, while also reporting 2.958 bits of entropy over eight states; those two statements cannot both hold. Third, the register decoding direction is stated inconsistently between summaries, which changes which bitstring is called the peak. Fourth, three job identifiers quoted in one transcript belong to IBM's public documentation tutorial and are not the author's jobs.
+
+None of these invalidate the work. All of them matter, because each is the kind of error that survives into a paper, a slide deck or a funding application and is then very expensive to retract.
+
+\section*{7. Why the record decayed}
+Four mechanisms account for almost all of the loss. Hosted services expire job records, so a job identifier is not a durable citation. Exports were stored in personal cloud folders in at least four locations, with duplicate file names that differ in content. Results were transcribed into prose in session reports, and the prose outlived the JSON. And circuit definitions were kept separately from results, so even where counts survived, the measurement bases needed to interpret them did not.
+
+\section*{8. A retention checklist}
+\begin{itemize}\item Hash every result export at the moment of retrieval and record the digest beside the job identifier.\end{itemize}
+\begin{itemize}\item Store the circuit that produced each result with the result, not in a separate folder.\end{itemize}
+\begin{itemize}\item Keep the measurement basis and the classical bit mapping for every run; without them an entangled-state result is uninterpretable.\end{itemize}
+\begin{itemize}\item Write the shot count once, derive every percentage from it, and state the arithmetic check in the note.\end{itemize}
+\begin{itemize}\item Mirror the whole set to an immutable public archive at submission time, so a claim can be checked after the account expires.\end{itemize}
+\begin{itemize}\item Separate files from transcripts in the folder structure and never quote a transcript as though it were a file.\end{itemize}
+\section*{9. Conclusion}
+A year of quantum experiments produced thirty job entries, eight verifiable exports and one published inventory. The audit's value is not that the numbers are large; it is that the boundary between verified and reported is now written down. The Bell and GHZ transcriptions are consistent with the hardware and worth re-running properly. The CHSH figure should be treated as withdrawn until a multi-basis measurement produces it from recoverable data. Anyone can check all of this: the inventory, the discrepancy log and the derived counts ship with this paper.
+
+\section*{Data availability}
+The job inventory (30 entries), the evidence report (all nine sections, including the coverage gaps) and the derived counts ship with this paper as CSV and Markdown, together with the LaTeX source of this document. Nothing in the package requires an IBM account to read.
+
+\section*{References}\begin{enumerate}
+\item IBM Quantum, Save jobs and results, quantum.cloud.ibm.com/docs/en/guides/save-jobs (tutorial job identifiers).
+\item Qiskit Runtime primitives and result serialisation, docs.quantum.ibm.com.
+\item Clauser, Horne, Shimony and Holt, Proposed experiment to test local hidden-variable theories, Phys. Rev. Lett. 23, 880 (1969).
+\item Greenberger, Horne and Zeilinger, Bell theorem without inequalities, in Bell's Theorem, Quantum Theory and Conceptions of the Universe (1989).
+\end{enumerate}\end{document}
