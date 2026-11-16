@@ -54,6 +54,18 @@ Four mechanisms account for almost all of the loss. Hosted services expire job r
 \section*{9. Conclusion}
 A year of quantum experiments produced thirty job entries, eight verifiable exports and one published inventory. The audit's value is not that the numbers are large; it is that the boundary between verified and reported is now written down. The Bell and GHZ transcriptions are consistent with the hardware and worth re-running properly. The CHSH figure should be treated as withdrawn until a multi-basis measurement produces it from recoverable data. Anyone can check all of this: the inventory, the discrepancy log and the derived counts ship with this paper.
 
+\section*{10. Expanded recovery, November 2026}
+
+A second recovery pass was run after first publication, targeting sources the original audit could not reach: the Notion workspace, a Perplexity session export, Grok session exports, and the wider Drive tree. The pass indexed 293 Drive objects matching quantum, IBM, Qiskit, QSAM or session keywords, against the 30-entry inventory taken earlier. That number is objects, not experiments: it includes duplicates, notes, generated reports and archives.
+
+A job-context file of 105 KB recovered from Drive contains 188 job-identifier mentions resolving to 25 distinct identifiers. Twenty-four were already in the inventory. One is new: d5098l7g0u6s73dbio30, a chemistry run on ibm_torino associated with an aspirin and COX-bin Hamiltonian. It has no recovered counts, so it enters the inventory as reported-only, which changes the composition to thirty-one entries: eight with original exports, nineteen reported-only, four unrecoverable.
+
+Three identifiers that appear in session text, d2n1d2cg59ks73c6vu3g, d2n18dehb60s73cvalg0 and d2ff2cms6qcs738f4lb0, belong to IBM's public documentation tutorial and are excluded. They were excluded before; the second pass confirms that exclusion rather than extending it, and the audit now states the rule explicitly: an identifier is evidence only when it can be tied to a submission made by the author.
+
+Notion was searched for the first time. It holds 95 pages and 5 databases. Fifty-five pages discuss quantum work, largely architecture notes for QAI2, the Ghost Fingerprint platform and Q-Consciousness. The one database that sounds relevant, Experiment Results, is an unrelated 2022 template of landing-page tests, so Notion contributes narrative context rather than measurements. No job counts were recoverable from it.
+
+The Perplexity export is a two-entry archive with no extractable text, so it adds nothing numeric. The position of Section 5 is unchanged by the second pass: the recovered computational-basis populations still cannot produce a CHSH parameter, and S = 2.78 remains withdrawal-worthy rather than confirmed. What the second pass changes is completeness, not conclusions, which is exactly what a re-audit should be able to say.
+
 \section*{Data availability}
 The job inventory (30 entries), the evidence report (all nine sections, including the coverage gaps) and the derived counts ship with this paper as CSV and Markdown, together with the LaTeX source of this document. Nothing in the package requires an IBM account to read.
 
