@@ -2,20 +2,20 @@ job_id,backend,created_utc,status,shots,register_bits,evidence_type,source_locat
 d69k3nt7v0is73fnjr7g,ibm_torino,2026-02-16T16:12:15Z,Completed,4096,40 (c),raw result+info JSON,Google Drive job-d69k3nt7v0is73fnjr7g-*,Near-uniform; max state frequency 1-2 counts
 d69k3ntaijps73csthig,ibm_marrakesh,2026-02-16T16:12:15Z,Completed,4096,40 (c),raw result+info JSON,Google Drive job-d69k3ntaijps73csthig-*,Near-uniform; max 2 counts
 d69q6obo1r9c73fmlibg,ibm_torino,2026-02-16T23:08:17Z,Completed,4096,40 (c),raw result+info JSON,Google Drive job-d69q6obo1r9c73fmlibg-*,Near-uniform; max 1-2 counts
-d69ti5taijps73ct8tq0,unknown (info file missing),~2026-04-25,Completed,4096,40 (c),raw result JSON,Google Drive job-d69ti5taijps73ct8tq0-result.json,Near-uniform
-d69ti69d1ejc73c81mp0,unknown (info file missing),~2026-04-25,Completed,4096,40 (c),raw result JSON,Google Drive job-d69ti69d1ejc73c81mp0-result.json,Near-uniform; max 2 counts
+d69ti5taijps73ct8tq0,ibm_fez,~2026-04-25,Completed,4096,40 (c),raw result JSON,Google Drive job-d69ti5taijps73ct8tq0-result.json,Near-uniform
+d69ti69d1ejc73c81mp0,ibm_marrakesh,~2026-04-25,Completed,4096,40 (c),raw result JSON,Google Drive job-d69ti69d1ejc73c81mp0-result.json,Near-uniform; max 2 counts
 d69ti6bo1r9c73fmpd70,unknown (info file missing),~2026-04-25,Completed,4096,40 (c),raw result JSON,Google Drive job-d69ti6bo1r9c73fmpd70-result.json,Near-uniform
-d69q6olaijps73ct523g,unknown (info file missing),~2026-04-25,Completed,4096,40 (c),raw result JSON,Google Drive job-d69q6olaijps73ct523g-result.json,Near-uniform; max 2 counts
-d69q6ol7v0is73fnr990,unknown (download blocked),2026-04-25,unknown,unknown,unknown,listed in Drive,Google Drive job-d69q6ol7v0is73fnr990-* (not retrieved),
+d69q6olaijps73ct523g,ibm_fez,~2026-04-25,Completed,4096,40 (c),raw result JSON,Google Drive job-d69q6olaijps73ct523g-result.json,Near-uniform; max 2 counts
+d69q6ol7v0is73fnr990,ibm_marrakesh,2026-04-25,Completed,4096,unknown,listed in Drive,Google Drive job-d69q6ol7v0is73fnr990-* (not retrieved),
 d72ucf6v3u3c73ej4gr0,ibm_kingston,2026-03-27T02:06:55Z,Completed,1024,4 (c),raw result+info JSON,Google Drive job-d72ucf6v3u3c73ej4gr0-*,Peak 0011=151 counts (14.7%); remainder near-uniform
 d72ulbkscmvs73acfu9g,ibm_kingston,2026-03-27T02:25:50Z,Completed,1024,5+5+2 (c_alpha/c_beta/c_twin),raw result+info JSON,Google Drive job-d72ulbkscmvs73acfu9g-*,All registers near-uniform; cross-register correlations ~0
-d4vkqacgk3fc73av3bs0,ibm_torino,~2025-12-14 18:50,Completed,~1024,5,histogram PNG + digitized counts,Google Drive job_B_d4vkqacgk3fc73av3bs0_histogram.png + JOB_B_d4vkqac_COUNTS.md,Peak |01001> ~435 counts (~43%)
+d4vkqacgk3fc73av3bs0,ibm_torino,~2025-12-14 18:50,Completed,~1024,5,histogram PNG + digitized counts,Google Drive job_B_d4vkqacgk3fc73av3bs0_histogram.png + JOB_B_d4vkqac_COUNTS.md,Benzene C6H6 Pi-Electron Resonance Run (name per Gemini Workloads list); histogram peak |01001> ~435-445. App export claims 01001=598 (conflicts with histogram)
 d4vm4lleastc73cicll0,ibm_fez,2025-12-15T01:20:22Z,Failed,-,-,info JSON only (from zip),Google Drive job-d4vm4lleastc73cicll0.zip,No result payload (failed job)
 cv8m4n7px5y0009uwbhg,ibm_sherbrooke (per Notion: 2025-03-22),2026-09-17 refetch attempt,NOT FOUND,-,-,refetch log,Google Drive JOB_CV8_SHERBROOKE_REFETCH.md,RuntimeJobNotFound on both instances
 d507hocgk3fc73avndq0,ibm_torino (133q),2025-12-15,Completed,1024,3,transcribed counts + histogram image,Project file ibm-torino-test-results-decemb-*.md,|000>=700/1024 (68%)
 d5iskg4pe0pc73ansr1g,ibm_torino,2026-01-12,Completed,4096,5,transcribed 32-state table,Project file pi-codex-*.md,11111 at 0.81% (74% below uniform)
 d5il5hspe0pc73ankrg0,ibm_torino,~2026-01,Completed,1024,3,transcribed counts,Project file pi-codex-*.md + workload job.md,Excited-state pop. 45.4% vs 44.8% predicted
-d5087lkgk3fc73avo340,ibm_torino,~2026-07-06,unknown,unknown,unknown,job ID only,Project file 36d1bfd3-*.md,Not present in exports
+d5087lkgk3fc73avo340,ibm_torino,~2026-07-06,unknown,unknown,unknown,job ID only,Project file 36d1bfd3-*.md + onedrive_QAI_2026-10-20/test_results/IBM_TORINO_348X_ERROR_SUPPRESSION_2025-12-16.md,"Not present in exports | 2025-12-16 OneDrive report: 000=700,011=160,001=75,010=70,100=30,111=10,101=2 (sum 1047 - rounded); QPR set 696/156/74/71/19/6/2/0 sums to 1024"
 d52bj4gnsj9s73avq8g0,ibm_torino,~2025-12-18 21:33,Completed,1024,2,transcribed counts,Project file the-wow-signal-*.md,|00>=480 |11>=410 |01>=60 |10>=75
 d52blconsj9s73avqagg,ibm_torino,~2025-12-18 21:38,Completed,1024,4,transcribed counts,the-wow-signal-*.md,|0000>~450 |1111>~450
 d52bn93ht8fs739tsdig,ibm_torino,~2025-12-18 21:42,Completed,1024,8,summary only,the-wow-signal-*.md,Uniform across 256 states
@@ -29,4 +29,101 @@ d6cakqp54hss73b8bfm0,ibm_torino,2026-02-20,Completed,4096,9,transcribed peaks,44
 d6calisnsg9c739a0b1g,ibm_torino,2026-02-20,Completed,2048,8,transcribed peaks,44a79e96-*.md,00111100=402 00111101=343 (SCORE)
 d6cambp54hss73b8bhhg,ibm_torino,2026-02-20,Completed,2048,6,transcribed peaks,44a79e96-*.md,100000=74 counts (ARQQ)
 d88van5g7okc73eo1nrg,ibm_fez (Heron r2 156q),2026-05-23 14:43 EDT,Completed,1024,4,transcribed counts table,70945cb0-*.md,|1100>=145 (14.16%) bimodal
-d5098l7g0u6s73dbio30,ibm_torino (per transcript),unknown (2026),unknown,unknown,unknown,transcribed context only (no export),Google Drive job_contexts.txt,Aspirin/COX Hamiltonian job referenced in transcript context; no counts recovered
+d5081qkgk3fc73avntjg,ibm_torino,2025-12-15T16:43 local,Completed,1024,3,reproducibility extract (QPR package),qpr_package/reproducibility/d5081qkgk3fc73avntjg + Notion,000=441 011=407 010=88 001=80 111=4 100=2 101=1 110=1 (441x separation)
+dall1pg2fm4c73f1ol3g,ibm_fez,2026 (Muon-2 pack),unknown,4096,unknown,Notion evidence pack,app.notion.com Muon-2 Evidence Pack,dual-backend treatment -> |01001>
+dall3l82fm4c73f1on60,ibm_marrakesh,2026 (Muon-2 pack),unknown,4096,unknown,Notion evidence pack,app.notion.com Muon-2 Evidence Pack,dual-backend treatment -> |01001>
+dall4gn8gn2s739k65j0,ibm_fez,2026 (Muon-2 pack),Completed,4096,unknown,Notion evidence pack,app.notion.com Muon-2 Evidence Pack,hard flat-Ry control ~0% on target
+dall518pqrnc73969ub0,ibm_marrakesh,2026 (Muon-2 pack),unknown,unknown,unknown,Notion evidence pack,app.notion.com Muon-2 Evidence Pack,hard flat-Ry control ~0% on target
+dalla7lr85ps73fbjkh0,unknown,2026 (Muon-2 pack),unknown,unknown,unknown,Notion evidence pack,app.notion.com Muon-2 Evidence Pack,Test A retarget -> |10110>
+dalldcdr85ps73fbjnkg,ibm_fez,2026 (Muon-2 pack),Completed,4096,unknown,Notion evidence pack,app.notion.com Muon-2 Evidence Pack,Test B2a product null PASS
+dallci5r85ps73fbjms0,unknown,2026 (Muon-2 pack),unknown,unknown,unknown,Notion evidence pack,app.notion.com Muon-2 Evidence Pack,Test C1 BV secret 1001 92.0% PASS
+dallbedr85ps73fbjlrg,unknown,2026 (Muon-2 pack),unknown,unknown,unknown,Notion evidence pack,app.notion.com Muon-2 Evidence Pack,Test B documented FAIL
+dalldcn8gn2s739k6eug,ibm_fez,2026 (Muon-2 pack),Completed,4096,unknown,Notion evidence pack,app.notion.com Muon-2 Evidence Pack,Test B2b documented FAIL
+d5v812pmvbjc73ac52k0,ibm_torino,2026-01-31,unknown,unknown,unknown,job ID (Grok export),qpr_job_ids_from_grok_export.json,first seen 2026-01-31
+d5oe5kph2mqc739d1ehg,ibm_torino,2026-01-21,unknown,unknown,unknown,job ID (Grok export),qpr_job_ids_from_grok_export.json,first seen 2026-01-21
+d6guv91keb2s73bdvdf0,unknown,2026-03-24,unknown,1024,5,Grok export transcript,qpr_job_ids_from_grok_export.json,GHZ 5-qubit entanglement QSAM+CACP
+d6gv0b73o3rs73cabdsg,unknown,2026-03-24,unknown,1024,2,Grok export transcript,qpr_job_ids_from_grok_export.json,Bell CHSH: |00>=403 (39.4%)
+d6gv1gathhns7391flq0,unknown,2026-02-27,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,Bernstein-Vazirani hidden string; completed 26s
+d5je6ukjt3vs73dr3t1g,ibm_torino,2026-01-13 19:29,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,breakthrough circuit analysis
+d5jep5ivcahs73a0lm50,ibm_torino,2026-01-14,Completed,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,execution 4s
+d52pilpsmlfc739e6dig,ibm_torino,2025-12-27,unknown,unknown,6,Grok export transcript,qpr_job_ids_from_grok_export.json + onedrive_QAI_2026-10-20/test_results,"6-qubit QSAM+ESCORT+SCORE | ""SHA256 private key extraction"" report: 110010 at 19.76%; claims Brisbane/Sherbrooke/Kyoto runs on 2025-12-19 - all retired before that date"
+d529nibht8fs739tqft0,ibm_torino,2025-12-19,unknown,unknown,6,Grok export transcript,qpr_job_ids_from_grok_export.json,6-qubit QSAM+ESCORT+SCORE unique achievements
+d5032kuaec6c738svh60,ibm_torino,2025-12-18,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json + onedrive_QAI_2026-10-20/test_results,hardware validation (99.6% gate fidelity claim)
+d50398fg0u6s73dbcjqg,ibm_torino,2025-12-18,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,"hardware validation | backend claim in 481x report: IBM Brisbane (claimed) - retired 2025-11-03, before 2025-12-18"
+d504a0teastc73cirpc0,ibm_torino,2025-12-18,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,"hardware validation | backend claim in 481x report: IBM Sherbrooke (claimed) - retired 2025-07-31, before 2025-12-18"
+d508b5sgk3fc73avo6dg,ibm_torino,2025-12-15 16:08,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,rerun of d507hocgk3fc73avndq0
+d503m95eastc73cir5b0,ibm_torino,2025-12-15,Completed,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,encoding/decoding cycle
+d5040a5eastc73cirfn0,ibm_torino,2025-12-15 12:17:53 EST,unknown,unknown,unknown,Grok export transcript + app telemetry (Tier 3),qpr_job_ids_from_grok_export.json,"SCORE Error Mitigation Test. App counts 00000=349,00001=260 sum 1045 (not 1024), 5-bit vs 4-bit circuit - unverified"
+d5043tleastc73cirjeg,ibm_torino,2025-12-15,unknown,unknown,1,Grok export transcript,qpr_job_ids_from_grok_export.json,baseline no error correction
+d503sv7g0u6s73dbd9tg,ibm_torino,2025-12-15,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,S-Corner test
+d509grmaec6c738t6480,ibm_torino,2025-12-15,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,workload
+d4vkedvg0u6s73dasnq0,unknown,2025-12-15,unknown,unknown,unknown,job info JSON (Grok export),qpr_job_ids_from_grok_export.json,job-d4vkedvg0u6s73dasnq0-info-copy.json
+d529d9onsj9s73avo450,ibm_torino,2025-12-18,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,QSAM+ESCORT+SCORE complete
+d529jognsj9s73avoadg,ibm_torino,2025-12-18 19:18 EST,Completed (per doc),1024,3,Grok export transcript + OneDrive report (Tier 2 transcription),qpr_job_ids_from_grok_export.json + onedrive_QAI_2026-10-20/test_results,"481x replication test. 011=377 (36.8%),100=179,000=125,111=144,101=66,010=60,001=45,110=28 (sum 1024). ""481x"" = 481 s assumed classical / 1 s quantum, not a measured benchmark"
+d529rnfp3tbc73ala52g,ibm_torino,2025-12-19,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,Aspirin-COX2 binding; 2s
+d52ar4rht8fs739trhhg,ibm_torino,2025-12-19,In progress,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,QELS framework
+d52oihgnsj9s73b07df0,ibm_torino,2025-12-19,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,101110=475 (46.4%)
+d52oi6psmlfc739e5f6g,ibm_fez,2025-12-19,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,101110=528 (51.6%)
+d52ojnpsmlfc739e5gig,ibm_torino,2025-12-19,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,011001=506 (49.4%)
+d52q133ht8fs739uaqjg,unknown,2025-12-19,unknown,unknown,6,Grok export transcript,qpr_job_ids_from_grok_export.json,101101=1725 top state
+d52q0nvp3tbc73alqbf0,ibm_torino,2025-12-19 (per table Dec 19 2024),unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,4-backend execution
+d52pthrhqvec73aip4fg,ibm_sherbrooke,2025-12-19 (per table Dec 19 2024),unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,4-backend execution
+d52q133ht8fs739al9nr0,ibm_fez,2025-12-19 (per table Dec 19 2024),unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,4-backend execution
+d52phqfp3tbc73alptcg,ibm_torino,2025-12-19 13:26,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,4-backend submission
+d52q19vp3tbc73alqc0g,ibm_marrakesh,2025-12-27 (first=2025-01-02),unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,marrakesh us-east
+d52og4np3tbc73alothg,ibm_torino,2025-12-19,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,submitted
+d5v6svabju6s73bbh3mg,ibm_torino,2026-01-31 16:05,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,GBM series
+d5v7idl7fc0s73atmveg,ibm_torino,2026-01-31 16:53,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,EGFRvIII docking 6.81%
+d5v809qbju6s73bbi8kg,ibm_torino,2026-01-31 17:28,unknown,1024,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,TEST 11 30.3%
+d5v8k92m4n7s73bp19xq,ibm_torino,2026-01-31,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,TEST 10 23.78% binding
+d5v8k92m4n7s73bpl9xq,ibm_torino,2026-01-31,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,TEST 10
+d5v9m2p4k8j73bql5zn,ibm_torino,2026-01-31 17:37,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,TEST 12 QSAM-GBM-7d success
+d5v9q7x2m9k73brm8wp,ibm_torino,2026-01-31 17:48,unknown,4096,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,TEST 13
+d5v9z4n8p2q73bsk9jt,ibm_torino,2026-01-31 17:58,unknown,4096,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,TEST 14
+d5v6mmjuf71s73cialu0,ibm_torino,2026-01-31,unknown,unknown,6,Grok export transcript,qpr_job_ids_from_grok_export.json,6-qubit enhanced test
+d5v6ikd7fc0s73atlu1g,ibm_torino,2026-01-31,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,completed
+d5okuijh36vs73bkhq3g,ibm_torino,2026-01-21 17:12,unknown,unknown,5,Grok export transcript,qpr_job_ids_from_grok_export.json,TMZ+Bevacizumab 37.4%
+d5okt8k8d8hc73cj0jbg,ibm_torino,2026-01-21 17:09,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,TNBC test 8
+d5oks39h2mqc739d83f0,ibm_torino,2026-01-21 17:07,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,pediatric leukemia test 9
+d5okpv9h2mqc739d81gg,ibm_torino,2026-01-21,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,calibration 7a
+d5okqtjh36vs73bkhmi0,ibm_torino,2026-01-21,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,calibration 7b
+d5okn6s8d8hc73cj0dh0,ibm_torino,2026-01-21,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,SYS-0 calibration
+d5okoubh36vs73bkhkj0,ibm_torino,2026-01-21,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,SYS-1 calibration
+d5oed51h2mqc739d1lhg,ibm_torino,2026-01-21,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,pipeline submitted
+d5ol1159j2ac739n6fk0,ibm_torino,2026-01-21,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,TNBC 11100 dominant
+d5of79jh36vs73bkc240,unknown,2026-06-19,unknown,unknown,5,Grok export transcript,qpr_job_ids_from_grok_export.json,5-qubit depth-10 RY+CX
+d5of38ph2mqc739d2a90,unknown,2026-06-19,unknown,unknown,5,Grok export transcript,qpr_job_ids_from_grok_export.json,5-qubit depth-10
+d5of4l9h2mqc739d2bk0,unknown,2026-06-19,unknown,unknown,5,Grok export transcript,qpr_job_ids_from_grok_export.json,5-qubit depth-10
+d5ofc359j2ac739n0q00,unknown,2026-06-19,unknown,unknown,5,Grok export transcript,qpr_job_ids_from_grok_export.json,5-qubit depth-10
+d5of8l3h36vs73bkc3b0,unknown,2026-06-19,unknown,unknown,5,Grok export transcript,qpr_job_ids_from_grok_export.json,5-qubit depth-10
+d5oej33h36vs73bkbesg,ibm_fez,2026-01-21 9:58,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,cancer checkpoint pending
+d6guqsv3o3rs73cab7f0,unknown,2026-02-27,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,live job complete
+d6960ire4kfs73d3qt0g,ibm_torino,2026-02-16,Completed,1024,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,phase modulation submitted
+d67n818qbmes739flh20,ibm_torino,2026-02-13,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,completed
+d69k3nlaijps73csthi0,ibm_fez,2026-02-15,Completed,4096,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,mining system job (marrakesh/fez/torino trio)
+cbmmp9a0y6r2ejah6lta3,unknown,2025-11-08,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,Bell purity 97.3% (25x mitigation claim)
+cbm2oo2ou4g6fxxm7f3fl,unknown,2025-11-08,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,3018ms security test
+cbmwolu00h53zyc4fo9se,unknown,2025-11-08,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,drug binding -13.05 kcal/mol
+d5098l7g0u6s73dbio30,unknown,2026-06-28,unknown,unknown,unknown,Grok export transcript,qpr_job_ids_from_grok_export.json,NS workload MHT archive
+d4vkedvg0u6s738t1ykg,ibm_fez,2025-12-14 18:24:00 EST,Completed (per Gemini list),1024,4,app-generated counts (Tier 3),deck_upload/ (AI Studio app export 2026-10-20; not IBM Runtime format),"H2O Ground State Initial Run; app 0000=480,0011=240,1100=190,1111=114; ID differs from d4vkedvg0u6s73dasnq0"
+d4vkft6aec6c738t1yr0,ibm_torino,2025-12-14 18:27:30 EST,Completed (per Gemini list),1024,2,app-generated counts (Tier 3),deck_upload/ (AI Studio app export 2026-10-20; not IBM Runtime format),"Hardware Bell State Calibration; app 00=518,11=494,01=7,10=5"
+d4vkit4gk3fc73av3b10,ibm_torino,2025-12-14 18:34:11 EST,Completed (per Gemini list),1024,4,app-generated counts (Tier 3),deck_upload/ (AI Studio app export 2026-10-20; not IBM Runtime format),QSAM Multi-Agent Superposition Baseline; app 0000=1024 (physically implausible)
+d4vknmuaec6c738t1ytg,ibm_torino,2025-12-14 18:44:02 EST,Completed (per Gemini list),1024,4,app-generated counts (Tier 3),deck_upload/ (AI Studio app export 2026-10-20; not IBM Runtime format),"Binary Pattern 1010 Gravitational Test; app 1010=412,0000=189,0101=164,1111=145"
+d4vkoomaec6c738t1z00,ibm_fez,2025-12-14 18:46:19 EST,unknown,1024,unknown,"app telemetry entry, no counts",deck_upload/ (AI Studio app export 2026-10-20; not IBM Runtime format),CO2 Vibrational Mode Test; counts empty
+qels-kras-047-torino,ibm_torino (claimed),2026-02-22 10:14:05 EST,unverified,1024,5,"app-generated label, not IBM job ID",deck_upload/ (AI Studio app export 2026-10-20; not IBM Runtime format),"00000=382,00001=288,11111=114 - not an IBM job"
+qels-admet-boston,ibm_brisbane (claimed; retired 2025-11-03),2026-02-22 11:30:10 EST,impossible,1024,4,"app-generated label, not IBM job ID",deck_upload/ (AI Studio app export 2026-10-20; not IBM Runtime format),backend retired before date - not a hardware run
+qels-multimutant-kingston,ibm_sherbrooke (claimed; retired 2025-07-31),2026-02-22 13:12:00 EST,impossible,1024,4,"app-generated label, not IBM job ID",deck_upload/ (AI Studio app export 2026-10-20; not IBM Runtime format) + CSV,"0000=395,0011=245,1100=214,1111=170 - backend retired before date"
+c8s4h14o112vg1vn8ed0,ibm_torino / brisbane|sherbrooke (claimed),2025-12-14,invalid ID,1024,2,app/Gemini transcription - NOT IBM ID format,deck_upload/ (AI Studio app export 2026-10-20; not IBM Runtime format) + gemini_share/,perfect 512/0/0/512-type Bell; remove from evidence
+c9f7b80dfe3a2b1c4d25,ibm_torino / brisbane|sherbrooke (claimed),2025-12-14,invalid ID,1024,2,app/Gemini transcription - NOT IBM ID format,deck_upload/ (AI Studio app export 2026-10-20; not IBM Runtime format) + gemini_share/,perfect 512/0/0/512-type Bell; remove from evidence
+b6213a4f5e6d7c8a9b30,ibm_torino / brisbane|sherbrooke (claimed),2025-12-14,invalid ID,1024,2,app/Gemini transcription - NOT IBM ID format,deck_upload/ (AI Studio app export 2026-10-20; not IBM Runtime format) + gemini_share/,perfect 512/0/0/512-type Bell; remove from evidence
+d7f1e2a3b4c5d6e7f8a9,ibm_torino / brisbane|sherbrooke (claimed),2025-12-14,invalid ID,1024,2,app/Gemini transcription - NOT IBM ID format,deck_upload/ (AI Studio app export 2026-10-20; not IBM Runtime format) + gemini_share/,perfect 512/0/0/512-type Bell; remove from evidence
+dalla7lr85ps73fbjki0,ibm_fez,2026-09-17T02:49:03Z,Completed,4096,5,Official IBM Runtime export (info+result JSON) - Tier 1,upload_2026-10-20b/ + merged_exports/,muon2_hard_flat control. 16 states ~6.25% ideal; hw top 00001=293 (7.2%) - flat as designed
+dald3bv8gn2s739jsj8g,ibm_fez,2026-09-16,submitted (per log),see desc,see desc,job ID only - results not yet exported,upload_2026-10-20b/x_QSAM_Support_Pack_10 (protocol log 2026-09-16),QSAM-6 target 110010; download info/result JSON
+dald4b0pqrnc73960cn0,ibm_kingston,2026-09-16,submitted (per log),see desc,see desc,job ID only - results not yet exported,upload_2026-10-20b/x_QSAM_Support_Pack_10 (protocol log 2026-09-16),CHSH 4-setting (key for CHSH claim); download info/result JSON
+dald4bf8gn2s739jskag,ibm_fez,2026-09-16,submitted (per log),see desc,see desc,job ID only - results not yet exported,upload_2026-10-20b/x_QSAM_Support_Pack_10 (protocol log 2026-09-16),QSAM-16 ESCORT; download info/result JSON
+dald4b82fm4c73f1f810,ibm_kingston,2026-09-16,submitted (per log),see desc,see desc,job ID only - results not yet exported,upload_2026-10-20b/x_QSAM_Support_Pack_10 (protocol log 2026-09-16),GHZ-8; download info/result JSON
+dald50f8gn2s739jsl60,ibm_marrakesh,2026-09-16,submitted (per log),see desc,see desc,job ID only - results not yet exported,upload_2026-10-20b/x_QSAM_Support_Pack_10 (protocol log 2026-09-16),E1 Figure-8 head-tail/singularity 3 pubs x4096; download info/result JSON
+dald50n8gn2s739jsl6g,ibm_marrakesh,2026-09-16,submitted (per log),see desc,see desc,job ID only - results not yet exported,upload_2026-10-20b/x_QSAM_Support_Pack_10 (protocol log 2026-09-16),E2 Q-SINK ghost-qubit probe 2 pubs; download info/result JSON
+dald50gpqrnc73960di0,ibm_marrakesh,2026-09-16,submitted (per log),see desc,see desc,job ID only - results not yet exported,upload_2026-10-20b/x_QSAM_Support_Pack_10 (protocol log 2026-09-16),E3 dual-register QEL link; download info/result JSON
+dald8oopqrnc73960hb0,ibm_fez,2026-09-16,submitted (per log),see desc,see desc,job ID only - results not yet exported,upload_2026-10-20b/x_QSAM_Support_Pack_10 (protocol log 2026-09-16),QSAM-1010 Formula C video replay + control; download info/result JSON
+daldagf8gn2s739jsqv0,ibm_kingston,2026-09-16,submitted (per log),see desc,see desc,job ID only - results not yet exported,upload_2026-10-20b/x_QSAM_Support_Pack_10 (protocol log 2026-09-16),Claimed-suite 4x2048 (Formula A/B + control); download info/result JSON
