@@ -66,6 +66,18 @@ Notion was searched for the first time. It holds 95 pages and 5 databases. Fifty
 
 The Perplexity export is a two-entry archive with no extractable text, so it adds nothing numeric. The position of Section 5 is unchanged by the second pass: the recovered computational-basis populations still cannot produce a CHSH parameter, and S = 2.78 remains withdrawal-worthy rather than confirmed. What the second pass changes is completeness, not conclusions, which is exactly what a re-audit should be able to say.
 
+\section*{11. Physical recordings of the runs, November 2026}
+
+The audit previously recorded that circuit definitions were not retained. That finding is now qualified. A Drive sweep for video files returned eleven distinct phone recordings, duplicates excluded, totalling roughly 1.9 GB and ranging from 29 to 178 seconds, whose file names carry capture dates of 14 and 15 December 2025. Those dates coincide with the Turin job batch that produced the only dense forty-bit exports in the archive.
+
+Frames extracted from the recordings were read directly. They show the IBM Quantum Platform composer: circuit setup, the QPU selection step naming a processor and its qubit count, a pending-jobs queue, and the confirmation line that a job has been submitted. The archive therefore contains contemporaneous screen evidence of submission, not only after-the-fact transcripts. What it still does not contain is the exported counts for those same jobs.
+
+That distinction is the whole point of this paper, so it is worth stating precisely. A recording proves an event happened at a time, on a named backend, with a circuit on screen. It does not supply the outcome distribution, and it cannot be re-analysed, re-binned or re-plotted. For the audit's purposes, recordings move a claim from unsupported to corroborated, not from reported to verified.
+
+A manifest ships with this version: file name, byte size, duration, Drive identifier and MD5 checksum for all eleven recordings, so a reader can confirm they are examining the same files. A parallel set of album photographs from the same sessions was retrieved and inspected.
+
+Two practical consequences follow. First, future experiments should capture the exported counts beside the phone recording, in the same folder, with the same checksum routine, because one without the other is either unverifiable or unanalysable. Second, a recording is the cheapest possible insurance against record decay: a phone in front of a screen for two minutes outlived every JSON file in this archive except eight.
+
 \section*{Data availability}
 The job inventory (30 entries), the evidence report (all nine sections, including the coverage gaps) and the derived counts ship with this paper as CSV and Markdown, together with the LaTeX source of this document. Nothing in the package requires an IBM account to read.
 
