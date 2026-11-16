@@ -88,6 +88,18 @@ The screenshots do not close the gap identified in Section 5. A rendered frequen
 
 This suggests the immediate action for the author while the service still holds the records: re-export the counts for the job identifiers in this inventory from the instance shown in the screenshots, then checksum them beside the manifest. Records on hosted services expire, and a re-export now converts several reported-only entries into verified ones at no experimental cost. A manifest of the seventeen screenshots, with checksums and a description of each frame, ships with this version.
 
+\section*{13. Recovered circuit definition and backend selection, November 2026}
+
+Section 5 recorded that circuit definitions were not retained, which is why no recovered file could be re-interpreted. A further set of seven screenshots qualifies that statement. One frame shows the composer's OpenQASM 2.0 panel with the header and register declarations legible: OPENQASM 2.0, the standard include, a four-qubit quantum register and a four-bit classical register. The same frame carries the working notes of the session that built it: start from a Bell state, apply a Hadamard to the first qubit, apply a controlled-NOT from the first to the second, then measure.
+
+This is partial but consequential recovery. Two facts follow that were previously unknown. The measurement basis is computational and the classical mapping is one-to-one with the quantum register, so any count table belonging to this circuit is directly interpretable. And the intended state is a Bell pair embedded in a four-qubit register, which means the four-bit outcomes split into two groups whose populations carry the entanglement signature. A reported-only entry with four-bit counts can now be checked against a known circuit rather than a guess.
+
+What remains missing is the gate list after the pair, since the panel is photographed mid-build rather than on completion. The four-qubit GHZ visible in another entry still has no recovered definition.
+
+The same album contains an observation that explains the shape of the whole archive. The backend selection dialog lists two processors with their live queues: ibm_marrakesh at 156 qubits with 14,038 pending jobs, and ibm_torino at 133 qubits with zero pending jobs. The inventory is dominated by Torino. That is not a design preference, it is a queue artefact: the fastest available backend was chosen at the moment of submission, repeatedly.
+
+Stated plainly, this is a documented selection effect and it belongs in the limitations of any comparative claim. An archive that samples one processor because it had an empty queue cannot support cross-backend reproducibility, and it cannot support a claim that a result was hardware independent. Recording the queue state at submission, as these screenshots accidentally did, is the fix, and it is worth adding to the retention checklist in Section 8.
+
 \section*{Data availability}
 The job inventory (30 entries), the evidence report (all nine sections, including the coverage gaps) and the derived counts ship with this paper as CSV and Markdown, together with the LaTeX source of this document. Nothing in the package requires an IBM account to read.
 
