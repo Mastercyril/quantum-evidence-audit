@@ -1,0 +1,31 @@
+job_id,backend,created_utc,status,shots,register_bits,evidence_type,source_location,distribution_summary
+d69k3nt7v0is73fnjr7g,ibm_torino,2026-02-16T16:12:15Z,Completed,4096,40 (c),raw result+info JSON,Google Drive job-d69k3nt7v0is73fnjr7g-*,Near-uniform; max state frequency 1-2 counts
+d69k3ntaijps73csthig,ibm_marrakesh,2026-02-16T16:12:15Z,Completed,4096,40 (c),raw result+info JSON,Google Drive job-d69k3ntaijps73csthig-*,Near-uniform; max 2 counts
+d69q6obo1r9c73fmlibg,ibm_torino,2026-02-16T23:08:17Z,Completed,4096,40 (c),raw result+info JSON,Google Drive job-d69q6obo1r9c73fmlibg-*,Near-uniform; max 1-2 counts
+d69ti5taijps73ct8tq0,unknown (info file missing),~2026-04-25,Completed,4096,40 (c),raw result JSON,Google Drive job-d69ti5taijps73ct8tq0-result.json,Near-uniform
+d69ti69d1ejc73c81mp0,unknown (info file missing),~2026-04-25,Completed,4096,40 (c),raw result JSON,Google Drive job-d69ti69d1ejc73c81mp0-result.json,Near-uniform; max 2 counts
+d69ti6bo1r9c73fmpd70,unknown (info file missing),~2026-04-25,Completed,4096,40 (c),raw result JSON,Google Drive job-d69ti6bo1r9c73fmpd70-result.json,Near-uniform
+d69q6olaijps73ct523g,unknown (info file missing),~2026-04-25,Completed,4096,40 (c),raw result JSON,Google Drive job-d69q6olaijps73ct523g-result.json,Near-uniform; max 2 counts
+d69q6ol7v0is73fnr990,unknown (download blocked),2026-04-25,unknown,unknown,unknown,listed in Drive,Google Drive job-d69q6ol7v0is73fnr990-* (not retrieved),
+d72ucf6v3u3c73ej4gr0,ibm_kingston,2026-03-27T02:06:55Z,Completed,1024,4 (c),raw result+info JSON,Google Drive job-d72ucf6v3u3c73ej4gr0-*,Peak 0011=151 counts (14.7%); remainder near-uniform
+d72ulbkscmvs73acfu9g,ibm_kingston,2026-03-27T02:25:50Z,Completed,1024,5+5+2 (c_alpha/c_beta/c_twin),raw result+info JSON,Google Drive job-d72ulbkscmvs73acfu9g-*,All registers near-uniform; cross-register correlations ~0
+d4vkqacgk3fc73av3bs0,ibm_torino,~2025-12-14 18:50,Completed,~1024,5,histogram PNG + digitized counts,Google Drive job_B_d4vkqacgk3fc73av3bs0_histogram.png + JOB_B_d4vkqac_COUNTS.md,Peak |01001> ~435 counts (~43%)
+d4vm4lleastc73cicll0,ibm_fez,2025-12-15T01:20:22Z,Failed,-,-,info JSON only (from zip),Google Drive job-d4vm4lleastc73cicll0.zip,No result payload (failed job)
+cv8m4n7px5y0009uwbhg,ibm_sherbrooke (per Notion: 2025-03-22),2026-09-17 refetch attempt,NOT FOUND,-,-,refetch log,Google Drive JOB_CV8_SHERBROOKE_REFETCH.md,RuntimeJobNotFound on both instances
+d507hocgk3fc73avndq0,ibm_torino (133q),2025-12-15,Completed,1024,3,transcribed counts + histogram image,Project file ibm-torino-test-results-decemb-*.md,|000>=700/1024 (68%)
+d5iskg4pe0pc73ansr1g,ibm_torino,2026-01-12,Completed,4096,5,transcribed 32-state table,Project file pi-codex-*.md,11111 at 0.81% (74% below uniform)
+d5il5hspe0pc73ankrg0,ibm_torino,~2026-01,Completed,1024,3,transcribed counts,Project file pi-codex-*.md + workload job.md,Excited-state pop. 45.4% vs 44.8% predicted
+d5087lkgk3fc73avo340,ibm_torino,~2026-07-06,unknown,unknown,unknown,job ID only,Project file 36d1bfd3-*.md,Not present in exports
+d52bj4gnsj9s73avq8g0,ibm_torino,~2025-12-18 21:33,Completed,1024,2,transcribed counts,Project file the-wow-signal-*.md,|00>=480 |11>=410 |01>=60 |10>=75
+d52blconsj9s73avqagg,ibm_torino,~2025-12-18 21:38,Completed,1024,4,transcribed counts,the-wow-signal-*.md,|0000>~450 |1111>~450
+d52bn93ht8fs739tsdig,ibm_torino,~2025-12-18 21:42,Completed,1024,8,summary only,the-wow-signal-*.md,Uniform across 256 states
+d52onlpsmlfc739e5keg,ibm_torino,2025-12-19 12:33 EST,Completed,1024,6,transcribed top-states + histogram image,todays-quantum-test-*.md,Top: 111110=73 111010=61 111011=51 111111=44 101010=30 011110=28
+d5ogq1bh36vs73bkdih0,ibm_torino,~2026-01 (Test 6),Completed,1024,unknown,job ID + result summary,d4a219e4-*.md,FOLFIRINOX synergy run; 2s runtime
+d5olgtl9j2ac739n72p0,ibm_torino,2026-01-21 17:51 EST,Completed,1024,5,transcribed counts,d4a219e4-*.md,00110 = 51/1024 (dominant)
+d5okla1h2mqc739d7svg,ibm_torino,~2026-01,Completed,unknown,unknown,job ID only (63-job GBM series),d4a219e4-*.md,Most recent of 63 oncology jobs
+d6cajep54hss73b8be00,ibm_torino,2026-02-20,Completed,4096,10,transcribed peaks,44a79e96-*.md,Max ~35 counts/state (QSAM)
+d6cak9p54hss73b8bf00,ibm_torino,2026-02-20,Completed,4096,10,transcribed peaks,44a79e96-*.md,Bell-pair peaks 90-115 counts (QEL)
+d6cakqp54hss73b8bfm0,ibm_torino,2026-02-20,Completed,4096,9,transcribed peaks,44a79e96-*.md,000000000=859 counts (20.97%) (ESCORT)
+d6calisnsg9c739a0b1g,ibm_torino,2026-02-20,Completed,2048,8,transcribed peaks,44a79e96-*.md,00111100=402 00111101=343 (SCORE)
+d6cambp54hss73b8bhhg,ibm_torino,2026-02-20,Completed,2048,6,transcribed peaks,44a79e96-*.md,100000=74 counts (ARQQ)
+d88van5g7okc73eo1nrg,ibm_fez (Heron r2 156q),2026-05-23 14:43 EDT,Completed,1024,4,transcribed counts table,70945cb0-*.md,|1100>=145 (14.16%) bimodal
