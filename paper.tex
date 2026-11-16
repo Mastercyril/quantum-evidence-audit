@@ -78,6 +78,16 @@ A manifest ships with this version: file name, byte size, duration, Drive identi
 
 Two practical consequences follow. First, future experiments should capture the exported counts beside the phone recording, in the same folder, with the same checksum routine, because one without the other is either unverifiable or unanalysable. Second, a recording is the cheapest possible insurance against record decay: a phone in front of a screen for two minutes outlived every JSON file in this archive except eight.
 
+\section*{12. Contemporaneous screenshots, November 2026}
+
+A second photographic set was recovered from a shared album: seventeen screenshots of the IBM Quantum console captured during the December 2025 sessions. Their value is specificity. They show the configure-settings panel with region Washington DC (us-east) and a shot count of 1024, the QPU selection step listing the Heron family, the workloads table filtered to that region with a status column, and a results view rendering computational basis states with measured frequencies for a six-qubit circuit.
+
+One frame is decisive for chronology. The usage panel records the job as created at 18:50 on 14 December 2025, pending for zero seconds, and entering progress at the same minute. Another shows the service instance, the resource group and a job identifier prefix matching a job already in this inventory. The submission is therefore anchored in time and in service, by an artifact created at the moment of submission rather than reconstructed afterwards.
+
+The screenshots do not close the gap identified in Section 5. A rendered frequency chart is a picture of a histogram, not a count export: the numbers visible are not the full outcome distribution, the digitisation is manual, and the circuit and basis definitions remain outside the archive. What the set does establish is that the runs were real, on the named backend, at the recorded minute, with the stated shot count.
+
+This suggests the immediate action for the author while the service still holds the records: re-export the counts for the job identifiers in this inventory from the instance shown in the screenshots, then checksum them beside the manifest. Records on hosted services expire, and a re-export now converts several reported-only entries into verified ones at no experimental cost. A manifest of the seventeen screenshots, with checksums and a description of each frame, ships with this version.
+
 \section*{Data availability}
 The job inventory (30 entries), the evidence report (all nine sections, including the coverage gaps) and the derived counts ship with this paper as CSV and Markdown, together with the LaTeX source of this document. Nothing in the package requires an IBM account to read.
 
