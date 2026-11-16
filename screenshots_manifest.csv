@@ -16,3 +16,10 @@ p14.jpg,606858,facf4a4a03afeda0d87b8bb42e6d02a7,Browser session with bookmarks a
 p15.jpg,698071,5f184fc19d48577b07f7f4e88ebabbc8,"Assistant query: show all OpenQASM circuits and quantum Bell tests, 13th Chamber specific formulas"
 p16.jpg,517576,705199e8c697bddebc076f2be0d7fda3,Composer view with short URL
 p17.jpg,174823,1980821b94d07d3ced4626e4fe82d652,"Composer, set up and run your circuit"
+p1.jpg,127211,95526c9b32cf54d5aabbdba5a33e1aef,"Composer with the OpenQASM 2.0 panel open: OPENQASM 2.0; include ""qelib1.inc""; qreg q[4]; creg c[4]; with assistant notes to add H on q[0], CNOT q[0]-q[1], measurements"
+p2.jpg,174823,1980821b94d07d3ced4626e4fe82d652,"Composer with assistant panel and bookmarks, circuit load view"
+p3.jpg,152495,f8917a8009160b9c0ef6e9a2344dcb7e,"Composer, initial state in URL"
+p4.jpg,156342,ddb8b1d9602fde9dfc39cb612a8a2670,"Composer, continue building view"
+p5.jpg,132161,4f8a91f2a8de019c945d452ea3a4e417,"Composer, circuit build view"
+p6.jpg,151789,c25e0d5bc5704b093b01cf811ee7b72f,"Set up and run dialog: region Washington DC (us-east), shots 1024, QPU options ibm_marrakesh 156 qubits with 14,038 pending jobs and ibm_torino 133 qubits with 0 pending jobs"
+p7.jpg,173622,0fd9da2e006e685dc3de4b10158403c0,Composer with assistant panel
