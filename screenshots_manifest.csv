@@ -1,0 +1,18 @@
+file,bytes,md5,what_it_shows
+p1.jpg,172684,6ee911a0e66da5caf8c259a0ae92940a,"IBM Quantum composer, circuit loaded, initial state in URL"
+p2.jpg,149490,4512160720d7071394760d71ce5866ac,Composer view with Q-sphere message: only available for circuits of a certain width
+p3.jpg,196766,be4f3df27b67bc1eaac248af9c07d3c8,"Composer, untitled circuit, File/Edit/View menus"
+p4.jpg,107032,d9809ab7bfd2acb2949cd5326ab98fa9,"Job usage stats: Created 14 Dec 2025 6:50 PM, pending 0s, in progress 14 Dec 2025 6:50 PM"
+p5.jpg,173622,0fd9da2e006e685dc3de4b10158403c0,Composer with assistant panel open
+p6.jpg,71184,6edefbd07d73f6051c6a3449e1640a42,"Service instance details: quantum-computing service under a us-east resource group, instance and job identifiers visible"
+p7.jpg,131721,49f9565ef524a5475173b2f1209375de,Measurement screenshot: frequency axis with actual values
+p8.jpg,151789,c25e0d5bc5704b093b01cf811ee7b72f,"Configure settings: region Washington DC (us-east), shots 1024; choose a QPU: Heron family"
+p9.jpg,188008,b6166f20290d70d3573df217af712ac1,"Composer, circuit build view"
+p10.jpg,146371,74d4c4994df27b601227e1003ceb5677,Workloads list filtered by region us-east
+p11.jpg,117805,8dafae1162f2dba354f6c9066193f136,"Measurement result view: frequency, working state, exact actual values"
+p12.jpg,181823,122494423615480f7eff21ec79975459,"Results table: computational basis states, 6 qubits, probabilities"
+p13.jpg,145005,8bb482e4c62632e2b8b387bf795280c4,Workloads list with status column and items-per-page control
+p14.jpg,606858,facf4a4a03afeda0d87b8bb42e6d02a7,Browser session with bookmarks and assistant panel
+p15.jpg,698071,5f184fc19d48577b07f7f4e88ebabbc8,"Assistant query: show all OpenQASM circuits and quantum Bell tests, 13th Chamber specific formulas"
+p16.jpg,517576,705199e8c697bddebc076f2be0d7fda3,Composer view with short URL
+p17.jpg,174823,1980821b94d07d3ced4626e4fe82d652,"Composer, set up and run your circuit"
